@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 95vh;
+}
+
+.profile{
+    width: 290px;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.3);
+    text-align: center;
+}
+.profile img{
+    max-width: 280px;
+    width: 100%;
+    border-radius: 8px;
+}
+.profile .skill{
+    display: flex;
+    gap: 12px;
+    justify-content: space-evenly;
+    margin: 19px 0px;
+}
+.skill p{
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.skill-1{
+    background-color: rgba(153, 58, 241, 0.822);
+}
+.skill-2{
+    background-color: rgba(206, 39, 53, 0.918);
+}
+.skill-3{
+    background-color: rgba(14, 168, 234, 0.877);
+}
+
+.profile button{
+    width: 100%;
+    padding: 9px 0px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(35, 35, 115, 0.825);
+    transition: all 0.35s;
+}
+.profile button:hover{
+    transform: scale(1.02);
+    background-color: rgba(46, 46, 209, 0.825);
+}
